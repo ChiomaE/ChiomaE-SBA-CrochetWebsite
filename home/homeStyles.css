@@ -12,6 +12,7 @@ nav > span {
   padding-left: 8px;
   background-color: #f36881;
   font-weight: bold;
+  text-decoration: none;
 }
 
 .nav-link:hover {
@@ -26,7 +27,7 @@ nav > span {
 .main-content {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  gap: 25px;
   height: 100%;
   margin: 10px;
 }
@@ -58,8 +59,9 @@ ul {
   display: flex;
 }
 
-a {
+.home-nav-link {
   color: #440381;
+  font-weight: bold;
 }
 /* 
 Colors and styles: 
