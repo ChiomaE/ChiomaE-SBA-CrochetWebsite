@@ -28,6 +28,7 @@ nav > span {
   display: flex;
   flex-direction: column;
   gap: 25px;
+  width: 90%;
   height: 100%;
   margin: 10px;
 }
