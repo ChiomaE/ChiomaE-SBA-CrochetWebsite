@@ -3,19 +3,47 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Crochet Website - Projects and Patterns</title>
+    <title>Crochet Website - Tools & Tutorials</title>
     <link rel="stylesheet" href="toolsTutorialsStyles.css" />
   </head>
-  <body>
-    <div>
+  <style>
+    /* Overrides */
+    h2,
+    h3,
+    p {
+      margin: 0;
+    }
+
+    ul {
+      margin: 0;
+      padding: 10px;
+      padding-left: 4px;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+    }
+  </style>
+  <body
+    style="
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      gap: 10px;
+    "
+  >
+    <div style="background-color: #f36881; display: flex">
+      <img
+        src="vecteezy_ball-of-wool-yarn-with-knitting-needles_46591538.png"
+        class="yarn-icon"
+      />
       <ul style="background-color: #f36881">
         <li class="nav-link active">Home</li>
-        <li>
-          <a href="/projects/projects.html" class="nav-link"
+        <li class="nav-link">
+          <a href="/tools-tutorials/toolsTutorials.html" class="nav-link"
             >Tools & Tutorials</a
           >
         </li>
-
         <li class="nav-link">
           <a href="/projects/projects.html" class="nav-link"
             >Projects & Patterns</a
@@ -23,9 +51,34 @@
         </li>
       </ul>
     </div>
-    <div>Yarns description</div>
-    <div>Yarn tables</div>
-    <div>Tutorial vids</div>
-    <div>Comments</div>
+    <div class="main-content">
+      <div>
+        <h2>Common Crochet Tools</h2>
+        <p>
+          To get started, you only need three things -
+          <strong>Yarn, Hooks, and Scissors!</strong>
+        </p>
+        <h4>Yarn & Scissors</h4>
+        <h4>Hooks</h4>
+      </div>
+      <div>
+        <p>
+          Below is a table of recommended types of projects based on the yarn
+          and hooks you want to start with:
+        </p>
+        <!-- Table goes here -->
+      </div>
+      <div>
+        <h2>Tutorials</h2>
+        <p>
+          Now that you have an idea of what you want to make, check out the
+          tutorials below to get started with your creation!
+        </p>
+      </div>
+      <div>
+        <span>Comments</span>
+        <!-- Form here -->
+      </div>
+    </div>
   </body>
 </html>
