@@ -66,6 +66,81 @@ nav > span {
   color: #440381;
   font-weight: bold;
 }
+
+.comment-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.comment-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.yarn-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #020202;
+  padding: 5px;
+}
+
+.content-header {
+  margin-bottom: 10px;
+}
+
+.content-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+}
+
+.tutorial-video-div {
+  width: 23vw;
+  height: 15vh;
+  border: 1px solid black;
+}
+
+iframe {
+  width: 25%;
+}
+
+@media screen and (max-width: 1050px) {
+  .content-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .content-header {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  iframe {
+    width: 400px;
+  }
+
+  .comment-form {
+    margin: auto;
+    width: 75%;
+  }
+  .comment-header {
+    text-align: center;
+  }
+}
+
 /* 
 Colors and styles: 
 Main: #F36881
