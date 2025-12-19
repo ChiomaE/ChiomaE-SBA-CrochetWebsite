@@ -23,14 +23,21 @@ nav > span {
 .nav-link.active {
   color: #fcfcfc;
 }
+.yarn-icon {
+  width: 45px;
+  height: 35px;
+  background-color: #f36881;
+  padding: 8px;
+  padding-right: 0;
+}
 
 .main-content {
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 10px;
   width: 90%;
   height: 100%;
-  margin: 10px;
+  margin: auto;
 }
 
 .page-showcase {
@@ -42,28 +49,92 @@ nav > span {
 }
 
 .page-div {
-  width: 50%;
-}
-
-/* Overrides */
-
-h2,
-h3,
-p {
-  margin: 0;
-}
-
-ul {
-  margin: 0;
-  padding: 10px;
-  list-style-type: none;
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  gap: 12px;
+}
+
+.home-img {
+  width: 380px;
+  height: 380px;
+  border-radius: 3px;
 }
 
 .home-nav-link {
   color: #440381;
   font-weight: bold;
 }
+
+.comment-header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.comment-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-bottom: 20px;
+}
+
+.yarn-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th,
+td {
+  border: 1px solid #020202;
+  padding: 5px;
+}
+
+.content-header {
+  margin-bottom: 10px;
+}
+
+.content-list {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-bottom: 10px;
+  margin-left: 10px;
+}
+
+.tutorial-video-div {
+  width: 23vw;
+  height: 15vh;
+  border: 1px solid black;
+}
+
+@media screen and (max-width: 1050px) {
+  .content-list {
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    margin-left: 0;
+  }
+
+  .content-header {
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  .comment-form {
+    margin: auto;
+    width: 75%;
+  }
+  .comment-header {
+    text-align: center;
+  }
+}
+
 /* 
 Colors and styles: 
 Main: #F36881

@@ -6,16 +6,43 @@
     <title>Crochet Website - Tools and Tutorials</title>
     <link rel="stylesheet" href="projectStyles.css" />
   </head>
-  <body>
-    <div>
-      <ul style="background-color: #f36881">
-        <li class="nav-link active">Home</li>
-        <li>
-          <a href="/projects/projects.html" class="nav-link"
-            >Tools & Tutorials</a
-          >
-        </li>
+  <style>
+    /* Overrides */
+    h2,
+    h3,
+    p {
+      margin: 0;
+      margin-bottom: 6px;
+    }
 
+    ul {
+      margin: 0;
+      padding: 10px;
+      padding-left: 4px;
+      list-style-type: none;
+      display: flex;
+      align-items: center;
+    }
+  </style>
+  <body
+    style="
+      margin: 0;
+      display: flex;
+      flex-direction: column;
+      height: 100vh;
+      gap: 10px;
+    "
+  >
+    <div style="background-color: #f36881; display: flex">
+      <img
+        src="vecteezy_ball-of-wool-yarn-with-knitting-needles_46591538.png"
+        class="yarn-icon"
+      />
+      <ul style="background-color: #f36881">
+        <li class="nav-link">
+          <a href="/home/home.html" class="nav-link">Home</a>
+        </li>
+        <li class="nav-link active">Tools & Tutorials</li>
         <li class="nav-link">
           <a href="/projects/projects.html" class="nav-link"
             >Projects & Patterns</a
@@ -23,12 +50,52 @@
         </li>
       </ul>
     </div>
-    <div>Small Description</div>
+    <div class="main-content">
     <div>
-      <div>Small proj</div>
-      <div>Medium proj</div>
-      <div>Large proj</div>
+      <p>In this section, I've created a list of projects categorized into <strong>small, medium, and large</strong> projects. However, feel free to start with any project you are interested in!</p>
     </div>
-    <div>Comments</div>
+    <div class="project-lists">
+      <div class="project-content">
+        <h3>Small Projects</h3>
+        <div class="project-list"></div>
+        <hr style="width: 100%; border: 0.5px solid rgb(146, 146, 146)" />
+      </div>
+      <div class="project-content">
+        <h3>Medium Projects</h3>
+        <div class="project-list"></div>
+        <hr style="width: 100%; border: 0.5px solid rgb(146, 146, 146)" />
+      </div>
+      <div class="project-content">
+        <h3>Large Projects</h3>
+        <div class="project-list"></div>
+        <hr style="width: 100%; border: 0.5px solid rgb(146, 146, 146)" />
+      </div>
+    </div>
+    <div class="comment-header">
+        <p style="font-weight: 500">
+          If you found this information helpful, please let me know in the
+          comment box below!
+        </p>
+        <form class="comment-form">
+          <div style="display: flex; flex-direction: column">
+            <label for="commentorName">Enter your comment here: </label>
+            <textarea id="commentorName" rows="6"></textarea>
+          </div>
+          <button
+            type="submit"
+            style="
+              width: fit-content;
+              background-color: rgb(71, 233, 71);
+              font-weight: 600;
+              padding: 5px;
+              border-color: rgb(66, 216, 66);
+              border-radius: 3px;
+              align-self: flex-end;
+            "
+          >
+            Submit Comment
+          </button>
+        </form>
+      </div>
   </body>
 </html>
