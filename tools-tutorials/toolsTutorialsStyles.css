@@ -117,7 +117,7 @@ iframe {
   width: 25%;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1250px) {
   .content-list {
     flex-direction: column;
     align-items: center;

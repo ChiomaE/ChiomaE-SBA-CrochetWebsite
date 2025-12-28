@@ -32,8 +32,6 @@ nav > span {
 }
 
 .main-content {
-  display: flex;
-  flex-direction: column;
   gap: 25px;
   width: 90%;
   height: 100%;
@@ -66,15 +64,34 @@ nav > span {
   color: #440381;
   font-weight: bold;
 }
-/* 
-Colors and styles: 
-Main: #F36881
-White: #FCFCFC
-Text: #020202
-Secondary: #440381
 
+.tenor-gif-embed {
+  margin: auto;
+}
 
+@media screen and (max-width: 1250px) {
+  .main-content {
+    width: 80%;
+  }
 
+  .page-content {
+    margin: auto;
+    width: 100%;
+  }
 
+  .content-header {
+    margin-bottom: 8px;
+  }
 
- */
+  .home-img {
+    width: 380px;
+    height: 380px;
+    border-radius: 3px;
+  }
+
+  .page-showcase {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+}

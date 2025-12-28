@@ -145,7 +145,7 @@ td {
   box-shadow: 0 0 2px 1px #440381;
 }
 
-@media screen and (max-width: 1550px) {
+@media screen and (max-width: 1250px) {
   .content-list {
     flex-direction: column;
     align-items: center;
