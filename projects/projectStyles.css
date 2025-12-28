@@ -113,6 +113,13 @@ td {
   border: 1px solid black;
 }
 
+.project-header-title {
+  padding-bottom: 5px;
+  font-weight: 400;
+  font-size: 1.6em;
+  color: #440381;
+}
+
 .project-content {
   width: 100%;
 }
@@ -123,12 +130,13 @@ td {
 .project-list {
   display: flex;
   justify-content: space-between;
+  margin-top: 6px;
 }
 
 .project-img {
   width: 280px;
   height: 200px;
-  border: 3px solid #440381;
+  border: 2px solid #0e011ba9;
   border-radius: 5px;
   object-fit: cover;
 }
@@ -137,7 +145,7 @@ td {
   box-shadow: 0 0 2px 1px #440381;
 }
 
-@media screen and (max-width: 1050px) {
+@media screen and (max-width: 1550px) {
   .content-list {
     flex-direction: column;
     align-items: center;
@@ -159,7 +167,8 @@ td {
   }
 
   .project-img {
-    width: 400px;
+    width: 80vw;
+    max-width: 350px;
     height: 300px;
   }
 
