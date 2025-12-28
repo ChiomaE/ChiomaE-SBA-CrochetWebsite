@@ -188,6 +188,13 @@ td {
     align-items: center;
     gap: 10px;
   }
+
+  .project-select {
+    margin: auto;
+  }
+  .page-header {
+    text-align: center;
+  }
 }
 
 /* 

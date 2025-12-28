@@ -52,7 +52,7 @@
     </div>
     <div class="main-content">
     <div>
-      <h2>Projects & Patterns</h2>
+      <h2 class="page-header">Projects & Patterns</h2>
       <p>In this section, I've created a list of projects categorized into <strong>small, medium, and large</strong> projects. However, feel free to start with any project you are interested in!</p>
     </div>
     <div class="project-lists">
@@ -120,7 +120,17 @@
         <hr style="width: 100%; border: 0.5px solid rgb(146, 146, 146)" />
       </div>
     </div>
+    <div style="display: flex; gap: 13px; align-items: center;" class="project-select">
+      <p style="font-weight: 500; margin: 0;">What project do you want to try first?</p>
+      <select>
+        <option>Coaster</option>
+        <option>Blanket</option>
+        <option>Sweater</option>
+        <option>Plush Doll</option>
+      </select>
+    </div>
     <div class="comment-header">
+    
         <p style="font-weight: 500">
           If you found this information helpful, please let me know in the
           comment box below!
@@ -134,12 +144,13 @@
             type="submit"
             style="
               width: fit-content;
-              background-color: rgb(71, 233, 71);
+              background-color: #440381;
               font-weight: 600;
               padding: 5px;
-              border-color: rgb(66, 216, 66);
               border-radius: 3px;
               align-self: flex-end;
+              color: white;
+              cursor: pointer;
             "
           >
             Submit Comment
